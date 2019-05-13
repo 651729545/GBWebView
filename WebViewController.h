@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface WebViewController : BaseViewController
+@interface WebViewController : UIViewController
 - (instancetype _Nullable )initWithUrl:(NSString * _Nonnull )urlString title:(NSString * _Nullable )title;
 @property (nonatomic, copy) NSString * _Nullable url;
 @property (nonatomic, copy) NSString * _Nullable titleStr;
