@@ -6,7 +6,7 @@
 //  Copyright © 2018年 xlan. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import <UIKit/UIKit.h>
 
 
 @interface WebViewController : BaseViewController
